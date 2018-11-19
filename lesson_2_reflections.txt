@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository starts the version tracking process and creates a hidden .git folder. This let's git know that these files need to be version-tracked in the .git folder.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is where files are placed before being committed. Multiple files associated with a logical change can be bundled together into one commit in this way as well. The working directory
+contains all files that are / are not tracked. The repository stores files that are being tracked (that have been committed). 
