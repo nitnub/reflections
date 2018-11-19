@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It allows you to narrow down on the deltas and identify likely candidates for the problem.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Manually flipping between different versions of a file in a folder is tedious and the naming isn't always clear. Not having to do this could be a big time saver.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual commit creation lends itself more to logical commit points. You are less likely to have a commit with broken (non-compiling) code. Having said that, it is nice to have backups when you may have forgotten to save/commit for an extended period.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is focused on programming, and thus has more value when it is able to track changes to interrelated files that must work together to function properly. Generally speaking, office type documents tend not to rely on each other to the degree of needed one another to function. Adding cross-document tracking may be more burdensome than helpful for the typical user.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log is helpful for seeing a log of all commit changes. From there, you can use the commit id numbers of two commits to see what was added/removed between them.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Constant rollbacks allow for the pinpointing of the exact change that may have caused the break. Time savings and learning will likely be improved.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to try using Git to manage updates on personal projects made between devices.
