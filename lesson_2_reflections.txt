@@ -7,3 +7,8 @@ How is the staging area different from the working directory and the repository?
 
 The staging area is where files are placed before being committed. Multiple files associated with a logical change can be bundled together into one commit in this way as well. The working directory
 contains all files that are / are not tracked. The repository stores files that are being tracked (that have been committed). 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+git diff --staged will allow you to compare the staging area changes to the most recent commit in the repository. By doing this, you can verify that the updated code is related to a logical change. If a file associated with the change deos not show in the git diff --staged response, that file can be added to the staging area and then checked by running git diff --staged again.
