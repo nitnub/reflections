@@ -22,3 +22,8 @@ Branhes would be helpful when adding experimental features to an existing projec
 How do the diagrams help you visualize the branch structure?
 
 The diagrams help visualize the branch structure by being visualizations. 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches combines their code changes and related functionality. Diagrams allow for easier visualization of what is happening with our branch activities and help keep us from making mistakes.
