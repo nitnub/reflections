@@ -27,3 +27,8 @@ The diagrams help visualize the branch structure by being visualizations.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches combines their code changes and related functionality. Diagrams allow for easier visualization of what is happening with our branch activities and help keep us from making mistakes.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is a big time saver, and limits some user error. Always doing merges manually would result in much more user error, but potentially lead to a better understanding of the changs that team members are trying to implement and what their goals are. There is also probably more potential for learning when doing merges manually.
