@@ -11,3 +11,8 @@ One reason for this is that it is important to know what you are working on. If 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Forks allow you to replicate another person's repository when you don't (or do) have permission to edit theirs. Clones can be made at the local level or between local and GitHub. Branches are the labels applied to deliniations that exist within the file(s) in a repository. Forks can be helpful when you lack access to write into someone else's repository.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A benefit of having a copy of the last known state o the remote stored locally is the ability to work with the most recently known remote state when you are offline, such as when travelling.
