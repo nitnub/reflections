@@ -16,3 +16,8 @@ Forks allow you to replicate another person's repository when you don't (or do) 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A benefit of having a copy of the last known state o the remote stored locally is the ability to work with the most recently known remote state when you are offline, such as when travelling.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Previously, I've used local saves with appended suffixes to denote the most recent change. This is much quicker in terms of creating and sending the initial file, but it can quickly get out of hand when multiple people are sharing versions back and forth.
