@@ -21,3 +21,8 @@ A benefit of having a copy of the last known state o the remote stored locally i
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Previously, I've used local saves with appended suffixes to denote the most recent change. This is much quicker in terms of creating and sending the initial file, but it can quickly get out of hand when multiple people are sharing versions back and forth.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Working in a separate branch would be good for experimental changes ("Easey Mode" example). Working in a separate branch is helpful because you don't disturb the working master, and you can always abandon an experimental change without causing any problems going back to the original code. Working in master is beneficial as it avoids a lot of the complications mentioned in the original question prompt (push / pull / etc.) and keeps all changes in a single place / chain of commits.
